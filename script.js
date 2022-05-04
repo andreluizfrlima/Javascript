@@ -1,4 +1,38 @@
-function getAdmins(map) {
+const meuArray = [45, 34, 57, 567, 342, 457, 31, 20, 07, 05, 02,];
+ function valoresunicos(arr){
+   const mySet = new Set(arr);
+
+   return [...mySet];
+ }
+
+console.log(valoresunicos(meuArray));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function getAdmins(map) {
   let admins =  [];
   for([key, value] of map) {
     if (value === 'user') {
@@ -18,4 +52,4 @@ usuarios.set("lucia","user");
 usuarios.set("ladislau","admin");
 usuarios.set("lobão","user");
 
-console.log(getAdmins(usuarios));
+console.log(getAdmins(usuarios));*/
