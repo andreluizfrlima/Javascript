@@ -1,3 +1,4 @@
+
 const meuArray = [45, 34, 57, 567, 342, 457, 31, 20, 07, 05, 02,];
  function valoresunicos(arr){
    const mySet = new Set(arr);
@@ -7,6 +8,8 @@ const meuArray = [45, 34, 57, 567, 342, 457, 31, 20, 07, 05, 02,];
 
 console.log(valoresunicos(meuArray));
 
+
+comst
 
 
 
